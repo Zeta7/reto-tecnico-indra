@@ -15,4 +15,4 @@ export const language = {
   created: 'creado',
   edited: 'editado',
   url: 'url'
-}
+};

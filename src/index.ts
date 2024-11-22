@@ -1,5 +1,5 @@
-import app from './config/server/index'
+import app from './infrastructure/server/config';
 
-import serverless from 'serverless-http'
+import serverless from 'serverless-http';
 
-module.exports.handler = serverless(app)
+module.exports.handler = serverless(app);

@@ -2,6 +2,9 @@
   "name": "prueba-tecnica-indra",
   "version": "1.0.0",
   "description": "",
+  "scripts": {
+    "test": "jest"
+  },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.549.0",
     "@aws-sdk/lib-dynamodb": "^3.549.0",
@@ -12,7 +15,11 @@
     "serverless-http": "^3.1.1"
   },
   "devDependencies": {
-    "serverless-offline": "^13.3.3",
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^13.8.3",
+    "ts-jest": "^29.2.5",
     "typescript": "^5.4.4"
   }
 }
