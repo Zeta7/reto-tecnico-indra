@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "deploy": "npm run test && sls deploy"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.549.0",
